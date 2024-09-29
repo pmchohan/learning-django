@@ -70,4 +70,13 @@ code: [simple_browser.py](../codes/simple_browser.py)
 Python string is Unicode, request to server should be UTF-8. So we use encode and decode in our code.
 ~~~
 
+### 5. Building a Simple Web Server in Python:
 
+code: [simple_server.py](../codes/simple_server.py)
+
+in django when running locally (production) we can debug by checking which requests are being made.
+
+### 6. Understanding Browser Developer Mode/Console:
+
+- in Network tab you can see each request-response cycle
+- in Inspect tab you can look at DOM (Document Object Model) (not necessarily the code from response)
